@@ -31,6 +31,7 @@ CSS预处理：Less + PostCSS
 
 1. 查看 src/components/Header.jsx，找到 tabs 变量（数组）并添加页面路由（key）和名称（label）
 2. 在 src/pages 下新建 jsx 和 less 文件，并参考已有示例
+3. 在 router/RootLayout 中导入第二步新增的页面，并使路由（path 中的地址）与 第一步中的页面（key）匹配
 
 ## 编程入门
 
